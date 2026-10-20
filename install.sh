@@ -22,5 +22,6 @@ done
 echo "Copying wallpaper..."
 mkdir -p "$HOME/Wallpapers"
 cp "$REPO_DIR/wallpaper.png" "$HOME/Wallpapers/"
+swaybg -i $HOME/Wallpapers/wallpaper.png -m fill
 
 echo "Done. Old configs backed up to $BACKUP_DIR"
